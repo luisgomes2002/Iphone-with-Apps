@@ -1,0 +1,142 @@
+body {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  margin: 10% 0;
+}
+
+.phone-case {
+  border: 1px solid #aaaaaa;
+  border-radius: 45px;
+  height: 700px;
+  width: 344px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+}
+
+.phone-screen {
+  border: 8px solid #000000;
+  border-radius: 45px;
+  background-image: url('../../assets/iPhone-14-Pro-wallpaper.jpg');
+  background-size: cover;
+  height: 684px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.up-area-itens {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.up-area-itens h1 {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.dynamicIsland {
+  border-radius: 10rem;
+  border: none;
+  background-color: #000000;
+  width: 100px;
+  height: 27px;
+  margin-top: 10%;
+  display: flex;
+  justify-content: right;
+  cursor: pointer;
+}
+
+.utilities {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 13%;
+}
+
+.utilities i {
+  color: white;
+  padding: 5px;
+}
+
+.app-show {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 460px;
+}
+
+.apps button {
+  margin: 5px 7px 0 8px;
+  border: none;
+  height: 55px;
+  width: 55px;
+  border-radius: 13px;
+}
+
+.apps button.img-filter {
+  filter: grayscale(60%);
+}
+
+.apps-info {
+  height: 80px;
+}
+
+.apps-info button {
+  background-size: cover;
+  cursor: pointer;
+}
+
+.apps-info p {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+}
+
+.pagination {
+  margin: 20px 0 18px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination p {
+  color: white;
+  font-size: 12px;
+}
+
+.pagination i {
+  color: white;
+  font-size: 10px;
+  margin: 2px;
+}
+
+.pagination button {
+  width: 70px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.308);
+  border-radius: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.shortcuts {
+  background-color: rgba(255, 255, 255, 0.212);
+  width: 310px;
+  height: 80px;
+  border-radius: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 10px;
+}
+
+.centralize-apps {
+  margin: 10% 1%;
+}
